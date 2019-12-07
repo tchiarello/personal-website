@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <title>Tatiane Chiarello</title> 
+</head>
+<body>
+    <section class="banner">
+        <div class="banner-text">
+            <h1>Hi, I'm Tatiane Chiarello</h1>
+            <p>Would you like to know more about me?</p>
+            <a href="#about-me"  class="banner-button" data-anchor="#about-me" data-anchor-duration="1000" data-anchor-offset="70">Let's go!</a>
+        </div>
+    </section>
+
+    <main class="info-container">    
+        <section id="about-me" class="wrap">
+            <div class="about-me-description">
+                <h2>I will tell you a story</h2>
+                <p class="description1">I'm <strong>Tatiane Chiarello</strong>, I have a degree in Law and I am currently living in Berlin, Germany.</p>
+                <p class="description2">I have a bachelor degree in Brazilian law. I always have tried to analyze each case precisely. I shifted my career a bit and I'm venturing into technology, I think I have found another passion.</p>
+                <a href="./images/cv-tatiane.pdf" class="about-me-button" target="_blank">See my CV</a>
+            </div>
+
+            <div class="about-me-list">
+                <p class="list-title"><strong>My skills:</strong></p>
+                <ul class="skills-list-items">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>Brazilian Criminal Law</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="wrap projects-container">
+            <p class="projects-title">My projects:</p>
+            <ul class="projects-list-items">
+                <li>
+                    <a href="https://responsive-project-frozen-world.netlify.com/" target="_blanck" class="projects-list-title">Project Frozen World - Oct/2019</a>
+                    <p>I used CSS and some HTML modifications. I learnt about responsive design by using media queries, flexbox and BEM (Block Element Modifier).</p>
+                </li>
+                <li>
+                    <a href="https://bootstrap-project-cars127.netlify.com/" target="_blanck" class="projects-list-title"> Cars 127 — Nov/2019</a>
+                    <p>To build this website I used Bootstrap elements and some CSS.</p>
+                </li>
+                <li>
+                    <a href="https://javascript-project-christmas-gifts.netlify.com/" target="_blanck" class="projects-list-title">Christmas Gifts- Nov/2019</a>
+                    <p>Experimental project using JavaScript and HTML select elements.</p>
+                </li>
+                <li>
+                    <a href="https://jquery-project-seasons.netlify.com/" target="_blanck" class="projects-list-title">Seasons - Dec/2019</a>
+                    <p>To this project I worked with jQuery. I implemented 'parallax' effect and 'fadeIn'/'fadeOut' animations.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="wrap social-media">
+            <a href="https://www.linkedin.com/in/tatiane-chiarello-91076a143/" target="_blank" class="social-media-title">
+                <img src="images/in.png" alt="linkedin logo">
+                <h3>LinkedIn</h3>
+                <p>Tatiane Chiarello</p>
+            </a>
+
+            <a href="https://github.com/tchiarello" target="_blank" class="social-media-title">
+                <img src="images/github.png" alt="github logo">
+                <h3>GitHub</h3>
+                <p>tchiarello</p>
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Tatiane Chiarello / tatichiarello@gmail.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/cezarlz/anchor.js@master/dist/anchor.min.js"></script>
+
+    <script>
+        var anchor = new Anchor();
+
+        anchor.init();
+    </script>
+</body>
+</html>

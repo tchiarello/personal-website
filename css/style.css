@@ -170,8 +170,12 @@ a {
 }
 
 .projects-list-items p {
+  margin: 0 0 4px
+}
+
+.projects-list-items span {
   font-style: italic;
-  margin-top: 0;
+  font-size: 14px;
 }
 
 .social-media {
